@@ -83,7 +83,7 @@ button {
     width: 56px;
     height: 56px;
     box-shadow: 0 0 0px var(--neon-green);
-    transition: all 0.5s ease-in-out;
+    transition: box-shadow 300ms ease-out;
 }
 
 button:hover {
