@@ -79,11 +79,13 @@ button {
     justify-content: center;
     background-color: var(--neon-green);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
 }
 
 button:hover {
+    transition: all 0.25s ease-in-out;
     box-shadow: 0 0 20px var(--neon-green);
     cursor: pointer;
+    scale: 1.1;
 }
